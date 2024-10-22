@@ -1,0 +1,27 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  .registerHeader {
+    display: flex;
+  }
+}
+.validationForm {
+  align-items: center;
+  max-width: 60rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}

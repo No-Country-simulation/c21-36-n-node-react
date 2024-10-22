@@ -1,0 +1,31 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/base/resets.scss";
+
+.navBar {
+  background-color: $primary;
+  margin-bottom: 1.5rem;
+}
+
+.navBar .navbarBrand {
+  font-family: $font-roboto;
+  font-size: 1.5em;
+  color: $font-color;
+}
+
+.navBar .navLink {
+  color: $font-color;
+}
+
+.iconsNavBar {
+  display: flex;
+  gap: 0.5rem;
+
+  color: $font-color;
+  .NavBarIcon {
+    padding: 0 0.25rem;
+  }
+  .iconText {
+    font-size: 0.625rem;
+    margin: 0;
+  }
+}

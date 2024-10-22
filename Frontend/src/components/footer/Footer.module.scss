@@ -1,0 +1,31 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/base/resets.scss";
+
+.footer {
+  background-color: $primary4;
+  color: $font-color2;
+  padding: 2rem;
+  .footWebs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: solid 3px $primary;
+    .footWebsIcons {
+      display: flex;
+
+      gap: 0.6rem;
+
+      .footIcon {
+        img {
+          width: 2rem;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 1rem 0 0 0;
+  }
+}

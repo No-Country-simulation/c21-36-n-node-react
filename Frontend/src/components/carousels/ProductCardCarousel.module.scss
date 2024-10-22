@@ -1,0 +1,28 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/base/resets.scss";
+
+.carouselComp {
+  margin: 1rem 0;
+
+  .carouseltitle {
+    font-size: 2rem;
+    color: $font-color2;
+    margin: 0;
+  }
+
+  .carousel {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: space-around;
+    padding: 1rem 0;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+    scrollbar-width: none;
+    .carouselItem {
+      flex: 1 0 auto;
+    }
+  }
+}
