@@ -15,7 +15,7 @@ function App() {
     <div className="app">
       <Header />
       <Register />
-      <Validation />
+      {/*     <Validation /> */}
       <HomeImgCarousel />
       <SpotTop />
       <ProductCardCarousel title="Selecionados para tí" />
